@@ -1,0 +1,18 @@
+{
+  "name": "♥️GOLD MD PAIR QR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://i.ibb.co/wspzc9t/IMG-20240328-WA0000.jpg",
+  "repository": "https://github.com/miniinconnulite-cmd",
+  "keywords": ["@BiLaLTeCh05"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || UMAR 🔰",
+      "required": false 
+    }
+  }
+}
